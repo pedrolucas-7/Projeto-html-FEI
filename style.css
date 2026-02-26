@@ -46,7 +46,8 @@ body{
     position: absolute;
         top: 900px;
         right: 0px;
-    transform:scaleX(-1);   
+    transform:scaleX(-1); 
+    z-index: 10;  
 }
 #aranha2{
     position: absolute;
@@ -98,4 +99,15 @@ body{
     position:absolute;
         top: 40px;
         right: 85px;
+}
+#aranha4{
+    background-image: url(4k-homem-aranha-47cs2wu25eg7uwgm.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 1101px;
+    left: -15px;
+    z-index: 1;
+    background-attachment: fixed; 
+    
 }
