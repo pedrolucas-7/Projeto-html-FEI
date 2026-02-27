@@ -1,14 +1,14 @@
 body{
     
-    background: linear-gradient(black 0%, rgb(135, 12, 12)50%, black 50%, black 100%);min-height: 200vh;
-   
+    background: linear-gradient(black 0%, rgb(135, 12, 12)50%, black 50%, black 70%, black 100%);min-height: 200vh;
 }
 .lista1{
     color: antiquewhite;
     width: 50vw;
     position: absolute;
-    left: 350px;
+    left: 330px;
     top: 360px;
+    z-index: 10;
 }
 #id1{
     color: antiquewhite;
@@ -16,6 +16,8 @@ body{
     text-align: center;
     font-size: 50px;
     text-shadow: 5px 5px 10px rgb(93, 25, 25);
+    z-index: 10;
+    position: absolute;
 } 
 #id2{
     color: antiquewhite;
@@ -23,24 +25,34 @@ body{
     text-align: center;
     text-shadow: 5px 5px 10px rgb(149, 9, 9);
     font-size: 20px;
+    z-index: 10;
+    position: absolute;
+    top: 100px;
 }
 #id3{
     color: antiquewhite;
     width: 50vw;
     text-align: center;
     font-size: 25px;
+    z-index: 10;
+    position: absolute;
+    top: 250px;
 }
 #id4{
     color: antiquewhite;
     position: absolute;
         top: 180px;
         right: 530px;  
+    z-index: 10;
+    position: absolute;
 }
 #mapa{
     position: absolute;
         right: 80px;
         top: 250px;
     box-shadow: -5px 5px 10px black;
+    z-index: 10;
+    position: absolute;
 }
 #aranha1{
     position: absolute;
@@ -52,7 +64,8 @@ body{
 #aranha2{
     position: absolute;
         top: 430px;
-        left: 150px;   
+        left: 150px; 
+        z-index: 10;  
 }
 #aranha3{
     height: 1200px;
@@ -110,4 +123,78 @@ body{
     z-index: 1;
     background-attachment: fixed; 
     
+}
+#preto1{
+    width: 99vw;
+    height: 260px;
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+    z-index: 6;
+}
+#preto2{
+    width: 99vw;
+    height: 900px;
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    z-index: 5;
+}
+#aranha5{
+    height: 200px;
+    width: auto;
+    position: fixed;
+    top: 0px;
+    right: 320px;
+    z-index: 20;
+}
+#aranha6{
+    position: relative;
+    top: 1550px;
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 20px;
+    z-index: 21;
+}
+#biografiaaranha{
+    position: relative;
+    top: 1600px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    z-index: 20;
+}
+#logoaranha{
+    position: absolute;
+    top: 980px;
+    left: 290px;
+    z-index: 20;
+    height: 300px;
+    width: auto;
+}
+#stanlee{
+    position: absolute;
+    top: 1899px;
+    left: 300px;
+    z-index: 20;
+    height: 400px;
+    width: auto;
+}
+#steveditko{
+    position: absolute;
+    top: 1900px;
+    right: 300px;
+    z-index: 20;
+    height: 400px;
+    width: auto;
+}
+#aranha7{
+    position: relative;
+    left: -600px;
+    top: -90px;
+    height: 1200px;
+    width: auto;
+    z-index: 1;
+    opacity: 12%;
 }
